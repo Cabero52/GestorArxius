@@ -1,0 +1,14 @@
+A continuació s'explica com efectuar l'execució del Makefile per executar l'aplicacio
+
+- Si executes make run, s'executa el DriverPresentacion
+- Si executes make i nom del test s'executa el test:
+     make TestAutors
+     make TestConjuntDocuments
+     make TestContingutConverter
+     make TestDoc
+     make TestEstructura
+     make TestExpressioBoleana
+     make TestGestorExpressioBoleana
+     make TestIDdocument
+
+- Si executes make distclean es borren totes les dependencies
